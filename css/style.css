@@ -24,3 +24,209 @@ h1 {
     font-size: 46px;
     text-align: center;
 }
+
+H2 {
+    font-size: 28PX;
+    color: crimson;
+    text-align: center;
+}
+
+table {
+    width: 600px;
+    height: 800px;
+    border: 10px;
+    border-style: outset;
+    border-color: rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+}
+
+td {
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    color: darkorange;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5rem;
+}
+
+form {
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+
+legend {
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+    text-align: left;
+}
+
+fieldset {
+    margin-bottom: 1.5rem;
+}
+
+input {
+    margin-top: 1rem;
+}
+
+textarea {
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 550px;
+    height: 200px;
+    display: inline-block;
+}
+
+/*Classes*/
+.cabeceraTabla {
+    color: whitesmoke;
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+/*Clases formulario*/
+.datosPersonales {
+    display: block;
+    text-align: left;
+    border: 10px white;
+    padding-top: 1rem;
+    display: block;
+    width: 10rem;
+}
+
+.direccionPostal {
+    display: inline-block;
+    margin-top: 0rem;
+
+}
+
+.sexoUsuario {
+    text-align: left;
+    display: block;
+    
+
+}
+
+.formularioHorizontal {
+    text-align: left;
+    padding-top: 1rem;
+    margin-top: 0rem;
+}
+
+.inputSinTop {
+    margin-top: 0rem;
+}
+
+.boton {
+    border: 1px solid color crimson;
+    background-color: crimson;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 65px;
+}
+
+/*Clases imágenes*/
+
+.cabeceraTabla {
+    background-image: url(../img/fondocabecera.jpg);
+    background-size: cover;
+}
+
+.ken {
+    background-image: url(../img/ken.png);
+    background-repeat: no-repeat;
+    
+}
+
+.chunLi {
+    background-image: url("../img/ChunLi.png");  
+
+    
+}
+
+.zangref {
+    background-image:url(../img/Zangief.png) ;   
+    background-repeat: no-repeat;
+}
+
+.dhalsin {
+    background-image:url(../img/Dhalsim.png) ;  
+    background-repeat: no-repeat; 
+}
+
+.ryu {
+    background-image:url(../img/Ryu.png) ;   
+    background-repeat: no-repeat;
+}
+
+.ehonda {
+    background-image:url(../img/EHonda.png) ;   
+    background-repeat: no-repeat;
+}
+
+.blanka {
+    background-image:url(../img/Blanka.png) ;   
+    background-repeat: no-repeat;
+}
+
+.guille {
+    background-image:url(../img/Guille.png) ;   
+    background-repeat: no-repeat;
+}
+
+.tHawk {
+    background-image:url(../img/THawk.png) ;   
+    background-repeat: no-repeat;
+}
+
+.feilong {
+    background-image:url(../img/Feilong.png) ;   
+    background-repeat: no-repeat;
+}
+
+.deeJan {
+    background-image:url(../img/DeeJay.png) ;   
+    background-repeat: no-repeat;
+}
+
+.balrog {
+    background-image: url(../img/Balrog.png);   
+    background-repeat: no-repeat;
+}
+
+.vega {
+    background-image:url(../img/Vega.png) ;   
+    background-repeat: no-repeat;
+}
+
+.sagat {
+    background-image:url(../img/Sagat.png) ;   
+    background-repeat: no-repeat;
+}
+
+.mBison {
+    background-image:url(../img/MBison.png) ;   
+    background-repeat: no-repeat;
+}
+
+.gammy {
+    background-image: url(../img/Cammy.png);   
+    background-repeat: no-repeat;
+}
+
