@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="shortcut icon" href="img/arcade.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <h1>To live is to fight, to fight is to live!</h1>
 
@@ -15,29 +17,140 @@
             <td colspan="4" class="cabeceraTabla">STREET FIGHTER</td>
         </tr>
         <tr>
-            <td class="ken">KEN</td>
-            <td class="chunLi">CHUN LI</td>
-            <td class="zangref">ZANGREF</td>
-            <td class="dhalsin">DHALSIN</td>
+            <td class="ken">
+                <div class="textoTabla">KEN</div>
+            </td>
+            <td class="chunLi">
+                <div class="textoTabla">CHUN LI</div>
+            </td>
+            <td class="zangref">
+                <div class="textoTabla">ZANGREF</div>
+            </td>
+            <td class="dhalsin">
+                <div class="textoTabla">DHALSIN</div>
+            </td>
         </tr>
         <tr>
-            <td class="ryu">RYU</td>
-            <td class="ehonda">E HONDA</td>
-            <td class="blanka">BLANKA</td>
-            <td class="guille">GUILLE</td>
+            <td class="ryu">
+                <div class="textoTabla">RYU</div>
+            </td>
+            <td class="ehonda">
+                <div class="textoTabla">E HONDA</div>
+            </td>
+            <td class="blanka">
+                <div class="textoTabla">BLANKA</div>
+            </td>
+            <td class="guille">
+                <div class="textoTabla">GUILLE</div>
+            </td>
         </tr>
         <tr>
-            <td class="tHawk">T HAWK</td>
-            <td class="feilong">FEILONG</td>
-            <td class="deeJan">DEE JAN</td>
-            <td class="gammy">GAMMY</td>
+            <td class="tHawk">
+                <div class="textoTabla">T HAWK</div>
+            </td>
+            <td class="feilong">
+                <div class="textoTabla">FEILONG</div>
+            </td>
+            <td class="deeJan">
+                <div class="textoTabla">DEE JAN</div>
+            </td>
+            <td class="gammy">
+                <div class="textoTabla">GAMMY</div>
+            </td>
         </tr>
         <tr>
-            <td class="balrog">BALROG</td>
-            <td class="vega">VEGA</td>
-            <td class="sagat">SAGAT</td>
-            <td class="mBison">M BISON</td>
+            <td class="balrog">
+                <div class="textoTabla">BALROG</div>
+            </td>
+            <td class="vega">
+                <div class="textoTabla">VEGA</div>
+            </td>
+            <td class="sagat">
+                <div class="textoTabla">SAGAT</div>
+            </td>
+            <td class="mBison">
+                <div class="textoTabla">M BISON</div>
+            </td>
         </tr>
     </table>
+
+    <h2>FORMULARIO DE INSCRIPCIÓN PARA JUGAR A STREET FIGHTER</h2>
+
+    <div>
+        <form action="mailto:lauravinseirogutierrez@gmail.com">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <div class="datosPersonales">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+
+                <div class="datosPersonales">
+                    <label for="apellidos">Apellidos: </label>
+                    <input type="text" name="apellidos" id="apellidos">
+                </div>
+
+                <div class="formularioHorizontal">
+                    <label for="direccion" class="label">Dirección Postal:</label>
+                    <div class="direccionPostal">
+                        <input type="text" name="calle" id="calle" placeholder="Calle" class="inputSinTop">
+                        <input type="text" name="Nº" id="Nº" placeholder="Nº" class="inputSinTop">
+                        <input type="text" name="piso" id="piso" placeholder="Piso" class="inputSinTop">
+                        <input type="text" name="codpostal" id="codpostal" placeholder="Cód Postal" class="inputSinTop">
+                        <input type="text" name="ciudad" id="ciudad" placeholder="Ciudad" class="inputSinTop">
+                    </div>
+
+                </div>
+                <div class="datosPersonales">
+                    <label for="nick">Nick: </label>
+                    <input type="text" name="nick" id="nick">
+                </div>
+
+                <div class="datosPersonales">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email">
+                </div>
+            </fieldset>
+
+            <fieldset class="sexoUsuario">
+                <legend>SEXO USUARIO</legend>
+                <div>
+                    <input type="radio" name="Sexo" value="f" class="inputSinTop">
+                    <label for="mujer" id="mujer">Mujer</label>
+                </div>
+                <div>
+                    <input type="radio" name="Sexo" value="h" class="inputSinTop">
+                    <label for="hombre" id="hombre">Hombre</label>
+                </div>
+                <div>
+                    <input type="radio" name="Sexo" value="n" class="inputSinTop">
+                    <label for="no" id="no">Prefiero No Decidir</label>
+                </div>
+            </fieldset>
+
+            <fieldset class="formularioHorizontal">
+                <label for="fecha">Fecha nacimiento: </label>
+                <input type="date" name="fecha" id="fecha" class="inputSinTop">
+            </fieldset>
+
+            <fieldset class="formularioHorizontal">
+                <legend>PERSONAJES</legend>
+                <label for="seleccion">Selecciona el personaje: </label>
+                <input type="text" name="seleccion" id="seleccion" class="inputSinTop">
+            </fieldset>
+
+            <fieldset>
+                <legend>COMENTARIOS</legend>
+                <textarea name="textarea" id="textArea"></textarea>
+            </fieldset>
+
+            <div>
+                <input type="submit" class="boton">
+                <input type="reset" value="Borrar" class="boton">
+
+            </div>
+        </form>
+    </div>
 </body>
+
 </html>

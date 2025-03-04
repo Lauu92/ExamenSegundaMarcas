@@ -17,6 +17,7 @@ body {
     background-image: url(../img/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -29,6 +30,7 @@ H2 {
     font-size: 28PX;
     color: crimson;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 table {
@@ -40,6 +42,7 @@ table {
     border-radius: 10px;
     background-color: black;
     margin: auto;
+    margin-bottom: 4rem;
 }
 
 td {
@@ -54,10 +57,16 @@ td {
     padding-bottom: 5rem;
 }
 
+
+p {
+    padding-bottom: 3rem;
+}
+
 form {
     width: 600px;
     height: 1100px;
     border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
     color: white;
     background-color: black;
     text-align: center;
@@ -67,6 +76,7 @@ form {
 }
 
 legend {
+    font-family: "Street";
     font-size: 14px;
     color: rgb(237, 175, 5);
     text-align: left;
@@ -85,15 +95,24 @@ textarea {
     padding-left: 1rem;
     padding-top: 1rem;
     width: 550px;
-    height: 200px;
+    height: 150px;
     display: inline-block;
 }
 
 /*Classes*/
+
+/*Clases tabla*/
 .cabeceraTabla {
     color: whitesmoke;
     font-size: 40px;
     opacity: 0.5;
+    background-position: center;
+    padding-top: 4rem;
+    margin: auto;
+}
+
+.textoTabla {
+    padding-bottom: 4rem;
 }
 
 /*Clases formulario*/
@@ -115,7 +134,7 @@ textarea {
 .sexoUsuario {
     text-align: left;
     display: block;
-    
+
 
 }
 
@@ -139,10 +158,10 @@ textarea {
     border-radius: 5px;
     margin-bottom: 10px;
     margin-left: 65px;
+    font-family: "Street";
 }
 
-/*Clases imágenes*/
-
+/*Clases imágenes tabla*/
 .cabeceraTabla {
     background-image: url(../img/fondocabecera.jpg);
     background-size: cover;
@@ -151,82 +170,96 @@ textarea {
 .ken {
     background-image: url(../img/ken.png);
     background-repeat: no-repeat;
-    
+    background-position: bottom;
+
 }
 
 .chunLi {
-    background-image: url("../img/ChunLi.png");  
-
-    
+    background-image: url("../img/ChunLi.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .zangref {
-    background-image:url(../img/Zangief.png) ;   
+    background-image: url(../img/Zangief.png);
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .dhalsin {
-    background-image:url(../img/Dhalsim.png) ;  
-    background-repeat: no-repeat; 
+    background-image: url(../img/Dhalsim.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .ryu {
-    background-image:url(../img/Ryu.png) ;   
+    background-image: url(../img/Ryu.png);
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .ehonda {
-    background-image:url(../img/EHonda.png) ;   
+    background-image: url(../img/EHonda.png);
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .blanka {
-    background-image:url(../img/Blanka.png) ;   
+    background-image: url(../img/Blanka.png);
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .guille {
-    background-image:url(../img/Guille.png) ;   
+    background-image: url(../img/Guille.png);
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .tHawk {
-    background-image:url(../img/THawk.png) ;   
+    background-image: url(../img/THawk.png);
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .feilong {
-    background-image:url(../img/Feilong.png) ;   
+    background-image: url(../img/Feilong.png);
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .deeJan {
-    background-image:url(../img/DeeJay.png) ;   
+    background-image: url(../img/DeeJay.png);
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .balrog {
-    background-image: url(../img/Balrog.png);   
+    background-image: url(../img/Balrog.png);
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .vega {
-    background-image:url(../img/Vega.png) ;   
+    background-image: url(../img/Vega.png);
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .sagat {
-    background-image:url(../img/Sagat.png) ;   
+    background-image: url(../img/Sagat.png);
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .mBison {
-    background-image:url(../img/MBison.png) ;   
+    background-image: url(../img/MBison.png);
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .gammy {
-    background-image: url(../img/Cammy.png);   
+    background-image: url(../img/Cammy.png);
     background-repeat: no-repeat;
+    background-position: bottom;
 }
-
