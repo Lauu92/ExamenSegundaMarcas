@@ -1,0 +1,26 @@
+/*Añadimos fuente externa*/
+@font-face {
+    font-family: "Street";
+    src: url(../Font/street.otf);
+}
+
+/*Inicializamos el archivo html*/
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos aplicados a zonas completas*/
+body {
+    font-family: "Street";
+    background-image: url(../img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
